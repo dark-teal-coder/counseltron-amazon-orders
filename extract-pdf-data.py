@@ -27,7 +27,7 @@ def get_pdf_page_values(pdf, page_num):
     # print(page_text_list)
     ## Trim white spaces
     page_text_list = [line.strip() for line in page_text_list]
-    print(page_text_list)
+    # print(page_text_list)
     print("-"*10)
     print(f"Lines on page {page_num + 1}: {len(page_text_list)}")
 
@@ -63,10 +63,12 @@ def get_pdf_page_values(pdf, page_num):
     i_after = i_canada
     v_address = page_text_list[i_before+1:i_after]
     order.update({"Address": v_address})
+    ## Address Line 1
+    v_add_line_1 = v_address[0]
+    order.update({"Address Line 1": v_add_line_1})
     ## City
     v_city = v_address[-1].split(",")[0].title()
     order.update({"City": v_city})
-    print("-"*10)
     
     return order
 
@@ -82,3 +84,4 @@ with pdfplumber.open(f"Amazon Manage Orders {today_date}.pdf") as pdf:
         order = get_pdf_page_values(pdf, i)
         for value in order.values(): 
             print(value)
+        print("-"*10)
