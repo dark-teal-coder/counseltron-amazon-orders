@@ -18,6 +18,7 @@
 16. Open "E-commerce Calculator" Excel file (see [E-commerce Calculator.JPG](./images/E-commerce%20Calculator.JPG))
 17. Choose "AMA00M" spreadsheet
 18. Enter Canada's province code, item code (SKU), quantity and "Cost" (unit price)
+19. Check if the total before selling fees and sales taxes equals the "Order amount" at the end of the [Details] tab of Adagio Order Entry (see [Adagio Order Details.JPG](./images/Adagio%20Order%20Details.JPG))
 
 The difference between "Steps to Print Amazon Packing Slips" and "Steps to Print Amazon Packing Slips to PDF" is the printer in Step 9.
 
