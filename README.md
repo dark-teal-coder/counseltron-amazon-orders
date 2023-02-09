@@ -11,7 +11,7 @@
 
 This project is for my data entry job. The job involves an extensive amount of manual repetitive daily tasks. To manage Amazon orders, we need to type in data from papers into or copy and paste data into different apps. Therefore, this project is to automate some of these manual tasks in order to save some time. 
 
-## Manual Daily Task to Manage Amazon Orders
+### Manual Daily Task to Manage Amazon Orders
 
 1. Log in to [Amazon Seller Central](https://sellercentral.amazon.ca)
 2. Select all orders of the day
@@ -46,7 +46,7 @@ This project is for my data entry job. The job involves an extensive amount of m
 
 The difference between "Steps to Print Amazon Packing Slips" and "Steps to Print Amazon Packing Slips to PDF" is the printer in Step 9.
 
-## Steps to Print Amazon Packing Slips
+### Steps to Print Amazon Packing Slips
 
 1. Go to [Amazon Seller Central](https://sellercentral.amazon.ca)
 2. Click [Log in]
@@ -69,7 +69,7 @@ The difference between "Steps to Print Amazon Packing Slips" and "Steps to Print
 15. Change the date in the file name to today's date
 16. Click [Save]
 
-## Steps to Print Amazon Packing Slips to PDF
+### Steps to Print Amazon Packing Slips to PDF
 
 1. Go to [Amazon Seller Central](https://sellercentral.amazon.ca)
 2. Click [Log in]
