@@ -126,3 +126,13 @@ import requests
 from bs4 import BeautifulSoup
 ```
 If `pip` fails to locate the relevant packages, you may find it at [Python Package Index (PyPI)](https://pypi.org/). Use `python file_name.py` to run the script in a CLI. Or, use an IDE, such as VS Code, to run the script. There will usually be a [Run] button in the top right corner of the opened script file. 
+
+## Credits 
+
+### Contributors 
+
+- [@dark-teal-coder](github.com/dark-teal-coder)
+
+### References 
+
+- xxx
