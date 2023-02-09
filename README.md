@@ -7,6 +7,18 @@
 - <ins>Project Owner</ins>: [@dark-teal-coder](github.com/dark-teal-coder)
 - <ins>First Published Date</ins>: 2023-02-03
 
+## Project
+
+- **Title**: *Counseltron Data Entry Automation*
+- **Difficulty**:
+  - [ ] Beginner
+  - [x] Intermediate
+  - [ ] Advanced
+- **Scale**:
+  - [x] Small
+  - [ ] Medium
+  - [ ] Big
+
 ## Repository Description
 
 This project is for my data entry job. The job involves an extensive amount of manual repetitive daily tasks. To manage Amazon orders, we need to type in data from papers into or copy and paste data into different apps. Therefore, this project is to automate some of these manual tasks in order to save some time. 
