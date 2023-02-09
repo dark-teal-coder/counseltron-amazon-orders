@@ -8,13 +8,16 @@
 6. Open "E-commerce Spec File" Excel file (see [E-commerce Spec File 2022.JPG](./images/E-commerce%20Spec%20File%202022.JPG))
 7. For 1st class mails, use the SKU code on each order to check the shipping cost for a certain quantity of the product/item from the "E-commerce Spec File" Excel file
 8. Jot down the shipping cost on the picking slips one by one
-9. For regular parcels, use the SKU code on each order to check the dimension (depth x width x height) and weight of the product/item from the "E-commerce Spec File" Excel file
+9. For regular parcels, use the item code (SKU) on each order to check the dimension (depth x width x height) and weight of the product/item from the "E-commerce Spec File" Excel file
 10. Jot down the dimension and weight on the picking slips one by one
 11. Open Adagio Order Entry desktop application
 12. Create an order list and enter details (product/item info) (see [Adagio Order Details.JPG](./images/Adagio%20Order%20Details.JPG))
 13. Check availability of each item in the [Details] tab in the order list (see [Adagio Order Details Availability.JPG](./images/Adagio%20Order%20Details%20Availability.JPG))
 14. If some items are out of stock, cancel the corresponding orders on [Amazon Seller Central](https://sellercentral.amazon.ca)
 15. Post the new order in Adagio Order Entry
+16. Open "E-commerce Calculator" Excel file (see [E-commerce Calculator.JPG](./images/E-commerce%20Calculator.JPG))
+17. Choose "AMA00M" spreadsheet
+18. Enter Canada's province code, item code (SKU), quantity and "Cost" (unit price)
 
 The difference between "Steps to Print Amazon Packing Slips" and "Steps to Print Amazon Packing Slips to PDF" is the printer in Step 9.
 
