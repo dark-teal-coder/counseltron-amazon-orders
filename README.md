@@ -1,3 +1,19 @@
+# Manual Daily Task to Manage Amazon Orders
+
+1. Log in to [Amazon Seller Central](https://sellercentral.amazon.ca)
+2. Select all orders of the day
+3. Print 2 copies of picking slips
+4. Order the paper picking slips in both piles so that those under CAD$30 to be sent as 1st class mail by Canada Post come before those as regular parcels
+5. Put 1 copy aside 
+6. For 1st class mails, use the SKU code on each order to check the shipping cost for a certain quantity of the product/item from the "E-commerce Spec File" Excel file 
+7. Jot down the shipping cost on the picking slips one by one
+8. For regular parcels, use the SKU code on each order to check the dimension (depth x width x height) and weight of the product/item from the "E-commerce Spec File" Excel file  
+9. Jot down the dimension and weight on the picking slips one by one 
+10. Open Adagio Order Entry desktop application 
+11. Create an order list and enter details (product/item info) (see [Adagio Order Details.JPG](./images/Adagio%20Order%20Details.JPG))
+
+The difference between "Steps to Print Amazon Packing Slips" and "Steps to Print Amazon Packing Slips to PDF" is the printer in Step 9.
+
 # Steps to Print Amazon Packing Slips
 
 1. Go to [Amazon Seller Central](https://sellercentral.amazon.ca)
