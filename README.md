@@ -20,3 +20,7 @@
 - Use the file name format "Amazon Manage Orders 2023-02-03"
 - Change the date in the file name to today's date
 - Click [Save]
+
+# Steps to Print Amazon Packing Slips
+
+Most the same as Steps to Print Amazon Packing Slips to PDF but choose [Kyocera TASKalfa 3500i KX] under "Printer"
