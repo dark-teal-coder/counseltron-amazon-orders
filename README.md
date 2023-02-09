@@ -13,6 +13,8 @@
 11. Open Adagio Order Entry desktop application
 12. Create an order list and enter details (product/item info) (see [Adagio Order Details.JPG](./images/Adagio%20Order%20Details.JPG))
 13. Check availability of each item in the [Details] tab in the order list (see [Adagio Order Details Availability.JPG](./images/Adagio%20Order%20Details%20Availability.JPG))
+14. If some items are out of stock, cancel the corresponding orders on [Amazon Seller Central](https://sellercentral.amazon.ca)
+15. Post the new order in Adagio Order Entry
 
 The difference between "Steps to Print Amazon Packing Slips" and "Steps to Print Amazon Packing Slips to PDF" is the printer in Step 9.
 
