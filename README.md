@@ -20,6 +20,7 @@
 18. Enter Canada's province code, item code (SKU), quantity and "Cost" (unit price)
 19. Check if the total before selling fees and sales taxes equals the "Order amount" at the end of the [Details] tab of Adagio Order Entry (see [Adagio Order Details.JPG](./images/Adagio%20Order%20Details.JPG))
 20. Print the "AMA00M" spreadsheet result
+21. Open "EST Desktop" application (see [Canada Post EST Desktop App.JPG](./images/Canada%20Post%20EST%20Desktop%20App.JPG))
 
 The difference between "Steps to Print Amazon Packing Slips" and "Steps to Print Amazon Packing Slips to PDF" is the printer in Step 9.
 
