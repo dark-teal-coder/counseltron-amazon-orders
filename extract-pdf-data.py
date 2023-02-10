@@ -72,7 +72,7 @@ def get_pdf_page_values(pdf, page_num):
     order.update({"City": v_city})
     ## Province
     v_province = v_address[-1].split(",")[1].strip()
-    order.update({"City": v_province})
+    order.update({"Province": v_province})
     
     return order
 
