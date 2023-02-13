@@ -67,12 +67,15 @@ def get_pdf_page_values(pdf, page_num):
     order.update({"Address": v_address})
     ## Address Line 1
     v_add_line_1 = v_address[0]
+    v_add_line_1 = v_add_line_1.upper()
     order.update({"Address Line 1": v_add_line_1})
     ## City
-    v_city = v_address[-1].split(",")[0].title()
+    v_city = v_address[-1].split(",")[0]
+    v_city = v_city.title()
     order.update({"City": v_city})
     ## Province
     v_province = v_address[-1].split(",")[1].strip()
+    v_province = v_province.title()
     order.update({"Province": v_province})
     
     return order
