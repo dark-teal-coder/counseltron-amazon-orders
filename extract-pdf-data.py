@@ -41,8 +41,8 @@ def get_pdf_page_values(pdf, page_num):
     order.update({"Order ID": v_order_id})
     ## SKU 
     result = [s for s in page_text_list if s.startswith("SKU")]
-    result = result.upper()
     v_sku = result[0][5:] ## Remove the 1st 5 characters
+    v_sku = v_sku.upper()
     v_sku = v_sku.rstrip("-") ## Remove "-" in SKU
     order.update({"SKU": v_sku})
     ## Unit Price 
