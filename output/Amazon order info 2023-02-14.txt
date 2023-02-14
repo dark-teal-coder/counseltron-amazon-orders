@@ -1,0 +1,42 @@
+Number of pages in the current PDF: 4
+----------
+Denys Remedios
+701-7936190-8275440
+C2103
+19.99
+1
+22.59
+['120 Eglinton Ave East , 5th Floor', 'Toronto,  Ontario  M4P 1E2']
+120 EGLINTON AVE EAST , 5TH FLOOR
+Toronto
+Ontario  M4P 1E2
+Charles Cyna
+701-9384737-4413854
+A-SPRAY
+19.98
+3
+62.94
+['5632 Eagle Creek Place', 'West Vancouver,  BC  V7W 3K2']
+5632 EAGLE CREEK PLACE
+West Vancouver
+Bc  V7W 3K2
+Donald Barry Atack
+702-0107656-3445022
+10621
+18.98
+2
+42.9
+['68-50th Street South', 'Wasaga Beach,  Ontario  L9Z 1X5']
+68-50TH STREET SOUTH
+Wasaga Beach
+Ontario  L9Z 1X5
+Adam Sturino
+702-9401743-7965868
+L8SGP3CN
+64.99
+1
+73.44
+['207 purple creek road', 'Woodbridge,  Ontario  L4H 5C6']
+207 PURPLE CREEK ROAD
+Woodbridge
+Ontario  L4H 5C6
