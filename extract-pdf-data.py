@@ -1,6 +1,7 @@
 import pdfplumber
 import pandas as pd
 from datetime import datetime
+import os
 
 
 order = {}
@@ -90,6 +91,17 @@ with pdfplumber.open(f"Amazon Manage Orders {today_date}.pdf") as pdf:
     print(f"Number of pages in the current PDF: {num_of_pages}")
     for i in range(num_of_pages):
         order = get_pdf_page_values(pdf, i)
+        print(order)
         for value in order.values(): 
             print(value)
         print("-"*10)
+
+if not os.path.exists('output'):
+   os.makedirs('output')
+
+## Get output filename
+dirname = "output"
+basename = f"Amazon order info {today_date}"
+file_type = ".txt"
+output_filename = os.path.join(dirname, basename + file_type)
+print(output_filename)
