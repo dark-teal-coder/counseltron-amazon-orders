@@ -100,8 +100,8 @@ with pdfplumber.open(f"Amazon Manage Orders {today_date}.pdf") as pdf:
 	num_of_pages = len(pdf.pages)
 	print(f"Number of pages in the current PDF: {num_of_pages}")
 	f = open(output_filename, "w")
-	f.write(f"Number of pages in the current PDF: {num_of_pages}")
-	f.write("\n" + "-" * 10 + "\n")
+	f.write(f"Number of pages in PDF: {num_of_pages}")
+	f.write("\n" + "-" * 20 + "\n")
 	f.close()
 	for i in range(num_of_pages):
 		order = get_pdf_page_values(pdf, i)
@@ -111,6 +111,7 @@ with pdfplumber.open(f"Amazon Manage Orders {today_date}.pdf") as pdf:
 			print(value)	
 			f.write(str(value))
 			f.write("\n")
+		f.write("\n")
 		f.close()
 		print("-"*10)
 
