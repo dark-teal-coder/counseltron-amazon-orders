@@ -113,7 +113,6 @@ with pdfplumber.open(f"Amazon Manage Orders {today_date}.pdf") as pdf:
 			f.write("\n")
 		f.write("\n")
 		f.close()
-		print("-"*10)
 
 f = open(output_filename, "r")
 print(f.read())
