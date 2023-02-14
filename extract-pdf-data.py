@@ -86,16 +86,6 @@ now = datetime.now()
 today_date = now.strftime(r"%Y-%m-%d")
 print("Today's date:", today_date)
 
-with pdfplumber.open(f"Amazon Manage Orders {today_date}.pdf") as pdf:
-	num_of_pages = len(pdf.pages)
-	print(f"Number of pages in the current PDF: {num_of_pages}")
-	for i in range(num_of_pages):
-		order = get_pdf_page_values(pdf, i)
-		print(order)
-		for value in order.values():
-			print(value)
-		print("-"*10)
-
 if not os.path.exists('output'):
    os.makedirs('output')
 
@@ -105,3 +95,24 @@ basename = f"Amazon order info {today_date}"
 file_type = ".txt"
 output_filename = os.path.join(dirname, basename + file_type)
 print(output_filename)
+
+with pdfplumber.open(f"Amazon Manage Orders {today_date}.pdf") as pdf:
+	num_of_pages = len(pdf.pages)
+	print(f"Number of pages in the current PDF: {num_of_pages}")
+	f = open(output_filename, "w")
+	f.write(f"Number of pages in the current PDF: {num_of_pages}")
+	f.write("\n" + "-" * 10 + "\n")
+	f.close()
+	for i in range(num_of_pages):
+		order = get_pdf_page_values(pdf, i)
+		print(order)
+		f = open(output_filename, "a")
+		for value in order.values():
+			print(value)	
+			f.write(str(value))
+			f.write("\n")
+		f.close()
+		print("-"*10)
+
+f = open(output_filename, "r")
+print(f.read())
