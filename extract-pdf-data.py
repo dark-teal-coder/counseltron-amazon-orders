@@ -98,14 +98,14 @@ print(output_filename)
 
 with pdfplumber.open(f"Amazon Manage Orders {today_date}.pdf") as pdf:
 	num_of_pages = len(pdf.pages)
-	print(f"Number of pages in the current PDF: {num_of_pages}")
 	f = open(output_filename, "w", encoding="utf-8")
+	print(f"Number of pages in PDF: {num_of_pages}")
 	f.write(f"Number of pages in PDF: {num_of_pages}")
-	f.write("\n" + "-" * 20 + "\n")
+	f.write("\n" + "-" * 30 + "\n\n")
 	f.close()
 	for i in range(num_of_pages):
 		order = get_pdf_page_values(pdf, i)
-		print(order)
+		# print(order)
 		## Append in binary mode
 		# f = open(output_filename, "ab")
 		## Specify encoding as UTF-8
