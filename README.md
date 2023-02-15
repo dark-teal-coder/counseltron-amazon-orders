@@ -135,7 +135,7 @@ If `pip` fails to locate the relevant packages, you may find it at [Python Packa
 
 ### References 
 
-- xxx
+- [Python Unicode Encode Error](https://blog.finxter.com/python-unicode-encode-error)
 
 &nbsp;
 
