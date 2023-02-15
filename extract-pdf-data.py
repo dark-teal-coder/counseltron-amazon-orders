@@ -108,11 +108,13 @@ with pdfplumber.open(f"Amazon Manage Orders {today_date}.pdf") as pdf:
 		print(order)
 		## Append in binary mode
 		# f = open(output_filename, "ab")
+		## Specify encoding as UTF-8
 		f = open(output_filename, "a", encoding="utf-8")
 		for value in order.values():
-			print(value)
 			value = str(value)
+			## Used with binary mode
 			# f.write(value.encode('utf-8'))
+			print(value)
 			f.write(value)
 			f.write("\n")
 		f.write("\n")
