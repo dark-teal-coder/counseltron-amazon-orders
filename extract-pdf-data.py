@@ -99,7 +99,7 @@ print(output_filename)
 with pdfplumber.open(f"Amazon Manage Orders {today_date}.pdf") as pdf:
 	num_of_pages = len(pdf.pages)
 	print(f"Number of pages in the current PDF: {num_of_pages}")
-	f = open(output_filename, "w")
+	f = open(output_filename, "w", encoding="utf-8")
 	f.write(f"Number of pages in PDF: {num_of_pages}")
 	f.write("\n" + "-" * 20 + "\n")
 	f.close()
@@ -107,14 +107,16 @@ with pdfplumber.open(f"Amazon Manage Orders {today_date}.pdf") as pdf:
 		order = get_pdf_page_values(pdf, i)
 		print(order)
 		## Append in binary mode
-		f = open(output_filename, "ab")
+		# f = open(output_filename, "ab")
+		f = open(output_filename, "a", encoding="utf-8")
 		for value in order.values():
 			print(value)
-			value = str(value).encode('utf-8')	
+			value = str(value)
+			# f.write(value.encode('utf-8'))
 			f.write(value)
 			f.write("\n")
 		f.write("\n")
 		f.close()
 
 f = open(output_filename, "r")
-print(f.read().decode('utf8'))
+print(f.read())
