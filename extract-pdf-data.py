@@ -2,7 +2,6 @@ import pdfplumber
 import pandas as pd
 from datetime import datetime
 import os
-import re
 
 
 order = {}
@@ -91,9 +90,16 @@ now = datetime.now()
 today_date = now.strftime(r"%Y-%m-%d")
 print("Today's date:", today_date)
 
-if not os.path.exists('output'):
-   os.makedirs('output')
+## Create folders if not existed 
+if not os.path.exists('input'): os.makedirs('input')
+if not os.path.exists('output'): os.makedirs('output')
 
+## Get input filename
+dirname = "input"
+basename = f"Amazon Manage Orders {today_date}"
+file_type = ".pdf"
+input_filename = os.path.join(dirname, basename + file_type)
+print(input_filename)
 ## Get output filename
 dirname = "output"
 basename = f"Amazon order info {today_date}"
@@ -101,7 +107,7 @@ file_type = ".txt"
 output_filename = os.path.join(dirname, basename + file_type)
 print(output_filename)
 
-with pdfplumber.open(f"Amazon Manage Orders {today_date}.pdf") as pdf:
+with pdfplumber.open(input_filename) as pdf:
 	num_of_pages = len(pdf.pages)
 	f = open(output_filename, "w", encoding="utf-8")
 	print(f"Number of pages in PDF: {num_of_pages}")
