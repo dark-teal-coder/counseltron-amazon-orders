@@ -2,6 +2,7 @@ import pdfplumber
 import pandas as pd
 from datetime import datetime
 import os
+import re
 
 
 order = {}
@@ -41,24 +42,28 @@ def get_pdf_page_values(pdf, page_num):
 	v_order_id = page_text_list[i_order_id][-19:] ## 19-digit order ID
 	order.update({"Order ID": v_order_id})
 	## SKU
-	result = [s for s in page_text_list if s.startswith("SKU")]
-	v_sku = result[0][5:] ## Remove the 1st 5 characters
+	v_sku = [s for s in page_text_list if s.startswith("SKU")]
+	v_sku = v_sku[0][5:] ## Remove the 1st 5 characters
 	v_sku = v_sku.upper()
 	v_sku = v_sku.rstrip("-") ## Remove "-" in SKU
+	if "ITEM TOTAL" in v_sku: ## Sometimes "Item total" included in SKU
+		i_sku = v_sku.find("ITEM TOTAL") 
+		v_sku = v_sku[:i_sku]
+	v_sku = v_sku.strip()
 	order.update({"SKU": v_sku})
 	## Unit Price
-	result = [s for s in page_text_list if s.startswith("Item subtotal")]
-	i_item_sub = page_text_list.index(result[0])
+	v_unit_price = [s for s in page_text_list if s.startswith("Item subtotal")]
+	i_item_sub = page_text_list.index(v_unit_price[0])
 	v_unit_price = float(page_text_list[i_item_sub - 1].split("CAD$")[1])
 	order.update({"Unit Price (CAD$)": v_unit_price})
 	## Quantity
-	# Should use the string before "Item subtotal" instead because there might be more than 1 item in the order
+	## Should use the string before "Item subtotal" instead because there might be more than 1 item in the order
 	i_quantity = page_text_list.index("Quantity  Product Details Unit price Order Totals")
 	v_quantity = int(page_text_list[i_quantity + 1].split()[0])
 	order.update({"Quantity": v_quantity})
 	## Grand Total
-	result = [s for s in page_text_list if s.startswith("Grand total:")]
-	v_grand_total = float(result[0][17:])
+	v_grand_total = [s for s in page_text_list if s.startswith("Grand total:")]
+	v_grand_total = float(v_grand_total[0][17:])
 	order.update({"Grand Total (CAD$)": v_grand_total})
 	## Address
 	i_canada = page_text_list.index("Canada")
