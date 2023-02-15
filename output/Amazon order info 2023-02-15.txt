@@ -1,0 +1,123 @@
+Number of pages in PDF: 11
+--------------------
+Chantel Clement
+702-7389537-0248256
+EWIP ITEM TOTAL CAD$34.99
+17.98
+1
+34.99
+['24-14 Cartier Court', 'Brockville,  Ontario  K6V 6S6']
+24-14 CARTIER COURT
+Brockville
+Ontario  K6V 6S6
+
+Paulette Bell
+701-5638081-2002661
+EWIP
+17.98
+1
+20.67
+['12700 Rue de Montigny', '411', 'Montréal,  Québec  H1A 0A1']
+12700 RUE DE MONTIGNY
+Montréal
+Québec  H1A 0A1
+
+Annie Villeneuve
+701-1193444-3861814
+EWIP
+17.98
+1
+20.67
+['9383 boul Gouin Est', 'Montreal,  Quebec  H1E 2S1']
+9383 BOUL GOUIN EST
+Montreal
+Quebec  H1E 2S1
+
+Laing/Thomson
+702-0264582-5194647
+L8DOT3
+31.97
+1
+36.77
+['8 Main St', 'PO Box 231- Mailroom', 'Buchans,  Newfoundland  A0H 1G0']
+8 MAIN ST
+Buchans
+Newfoundland  A0H 1G0
+
+Ildiko Sramaty
+702-2722152-9516227
+EGC4
+29.94
+1
+33.53
+['904 165A Street', 'Surrey,  British Columbia  V4A 9E8']
+904 165A STREET
+Surrey
+British Columbia  V4A 9E8
+
+Robert Fraser
+702-8308348-9237035
+BW8LPINT
+44.98
+1
+50.83
+['10 Tucker Street', 'East York,  Ontario  M4B 3P1']
+10 TUCKER STREET
+East York
+Ontario  M4B 3P1
+
+John Johnson
+702-2055921-8876248
+LFSR3
+69.98
+4
+316.32
+['P.o.box 636', 'Owen sound,  ON  N4K5R4']
+P.O.BOX 636
+Owen Sound
+On  N4K5R4
+
+Lesley Scharf
+701-8696874-4173802
+EKC
+12.97
+2
+29.32
+['365 Maggies Crescent', 'Carleton Place,  Ontario  K7C 0C4']
+365 MAGGIES CRESCENT
+Carleton Place
+Ontario  K7C 0C4
+
+Trudy Loewen
+702-6111978-1501002
+BW15BPINT
+79.98
+4
+335.92
+['438 1ST SE', 'Redcliﬀ,  Alberta  T0J 2P2']
+438 1ST SE
+Redcliﬀ
+Alberta  T0J 2P2
+
+Clin Dent I. Cloutier Inc
+701-1621413-2665028
+EWIP
+17.98
+2
+41.34
+['154 rue Jacques-Cartier', 'Gaspe,  Quebec  G4X 1M9']
+154 RUE JACQUES-CARTIER
+Gaspe
+Quebec  G4X 1M9
+
+Francisca Bessette
+701-3692913-7293018
+U52514
+37.94
+1
+42.87
+['257 Meynell road', 'Richmond,  Ontario  K0A 2Z0']
+257 MEYNELL ROAD
+Richmond
+Ontario  K0A 2Z0
+
