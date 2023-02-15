@@ -136,6 +136,7 @@ If `pip` fails to locate the relevant packages, you may find it at [Python Packa
 ### References 
 
 - [Python Unicode Encode Error](https://blog.finxter.com/python-unicode-encode-error)
+- [GUI Automation using Python](https://www.geeksforgeeks.org/gui-automation-using-python)
 
 &nbsp;
 
