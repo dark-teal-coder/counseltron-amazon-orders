@@ -96,7 +96,7 @@ if not os.path.exists('output'): os.makedirs('output')
 
 ## Get input filename
 dirname = "input"
-basename = f"Amazon Manage Orders {today_date}"
+basename = f"Amazon Manage Orders {today_date} 02"
 file_type = ".pdf"
 input_filename = os.path.join(dirname, basename + file_type)
 print(input_filename)
@@ -107,8 +107,16 @@ file_type = ".txt"
 output_filename = os.path.join(dirname, basename + file_type)
 print(output_filename)
 
+orders_list = []
+orders = {}
+
 with pdfplumber.open(input_filename) as pdf:
+	print(pdf)
 	num_of_pages = len(pdf.pages)
+	## Just add keys to an empty "orders" dictionary 
+	# for i in range(num_of_pages): 
+	# 	orders[f"order{i+1}"] = None
+	## Write header in the output file
 	f = open(output_filename, "w", encoding="utf-8")
 	f.write("-" * 50 + "\n")
 	print("Watch out for Expedited orders!\n")
@@ -118,26 +126,33 @@ with pdfplumber.open(input_filename) as pdf:
 	f.write(f"Number of pages in PDF: {num_of_pages}\n")
 	f.write("-" * 50 + "\n\n")
 	f.close()
-	orders = {}
+
 	for i in range(num_of_pages):
 		order = get_pdf_page_values(pdf, i)
-		print("order", order)
-		orders.update({f"order{i + 1}": order})
+		print("order:::::::::", order)
+		# orders.update({f"order{i + 1}": order})
+		orders.update({i: order})
+		# orders_list.append(order)
+		print("order:::::::::", order)
 		## Append in binary mode
-		# f = open(output_filename, "ab")
+		# f_a = open(output_filename, "ab")
 		## Specify encoding as UTF-8
-		f = open(output_filename, "a", encoding="utf-8")
+		f_a = open(output_filename, "a", encoding="utf-8")
 		for value in order.values():
 			value = str(value)
 			## Used with binary mode
-			# f.write(value.encode('utf-8'))
+			# f_a.write(value.encode('utf-8'))
 			print(value)
-			f.write(value)
-			f.write("\n")
-		f.write("\n")
-		f.close()
-	print("orders", orders)
+			f_a.write(value)
+			f_a.write("\n")
+		f_a.write("\n")
+		f_a.close()
+
+pdf.close()
+# print(orders_list)
+print(orders)
 
 ## Read the output file
-f = open(output_filename, "r")
-print(f.read())
+# file_r = open(output_filename, "r")
+# print(file_r.read())
+# file_r.close()
