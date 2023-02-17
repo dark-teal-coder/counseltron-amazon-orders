@@ -1,0 +1,212 @@
+Number of pages in PDF: 19
+------------------------------
+
+Meaghan Alford
+701-0528518-1294611
+EGC4
+29.94
+1
+33.83
+['28 Raglan Street', 'Guelph,  Ontario  N1H 2S5']
+28 RAGLAN STREET
+Guelph
+Ontario  N1H 2S5
+
+Nadia Abdool
+701-0949814-2159409
+GL15
+59.99
+1
+68.97
+['312 rue de Bologne', 'Laval,  Quebec  H7K 3H3']
+312 RUE DE BOLOGNE
+Laval
+Quebec  H7K 3H3
+
+Chistine Mcleod
+702-8838818-3043416
+BW15BPINT
+79.98
+1
+90.38
+['30 Edward Street', 'Bracebridge,  Ontario  P1L 1H5']
+30 EDWARD STREET
+Bracebridge
+Ontario  P1L 1H5
+
+Kim Bullen
+701-4150003-2389812
+C52524
+17.88
+2
+41.12
+['4 Garden Court', 'Amherst,  Nova Scotia  B4H 4R8']
+4 GARDEN COURT
+Amherst
+Nova Scotia  B4H 4R8
+
+Karen Daniel
+702-8457296-4101041
+EWIP
+17.98
+1
+20.32
+['10 Sargeant Avenue', 'Ajax,  Ontario  L1Z 0G8']
+10 SARGEANT AVENUE
+Ajax
+Ontario  L1Z 0G8
+
+Barry Holt
+702-3953415-9692218
+BW8LPINT
+44.98
+1
+50.83
+['523 Antique Court', 'Ottawa,  Ontario  K1V 2G8']
+523 ANTIQUE COURT
+Ottawa
+Ontario  K1V 2G8
+
+Diana Liz Chirinos Barrios
+702-9814995-1806605
+LC10SKINT
+55.98
+1
+63.26
+['25 Daniels Crescent', 'basement', 'Ajax,  Ontario  L1T 1W8']
+25 DANIELS CRESCENT
+Ajax
+Ontario  L1T 1W8
+
+Anisa Assadzada
+701-5008926-1387403
+10621
+18.98
+1
+21.45
+['619 Silver Spruce Way', 'Ottawa,  Ontario  K2M 0L2']
+619 SILVER SPRUCE WAY
+Ottawa
+Ontario  K2M 0L2
+
+Zalina Layton
+702-5612956-7004213
+BW15PPINT
+79.45
+1
+88.98
+['5042 Whitewater Place', 'Chilliwack,  British Columbia  V4Z 1H5']
+5042 WHITEWATER PLACE
+Chilliwack
+British Columbia  V4Z 1H5
+
+Inderpreet Athwal
+701-0226651-5233003
+EWIP
+17.98
+1
+20.14
+['8104 111B Street', 'Delta,  British Columbia  V4C 4S6']
+8104 111B STREET
+Delta
+British Columbia  V4C 4S6
+
+Isabelle Quinn
+702-6302519-7224263
+A-SPRAY
+19.98
+1
+20.98
+['1584 ﬂeury est', 'Montreal,  Québec  H2C 1S6']
+1584 FLEURY EST
+Montreal
+Québec  H2C 1S6
+
+Stephanie Russell Cogswell
+701-5353704-6731446
+EWIP
+17.98
+1
+20.68
+['6 Elm street', 'Dartmouth,  Nova Scotia  B2W 2K3']
+6 ELM STREET
+Dartmouth
+Nova Scotia  B2W 2K3
+
+Sylvie Dubois
+702-1761255-0705831
+L9OG3INT
+49.98
+1
+57.46
+['86 rue Bonneville', 'Thetford Mines,  Quebec  G6G 5V8']
+86 RUE BONNEVILLE
+Thetford Mines
+Quebec  G6G 5V8
+
+Lawrence Howe
+702-4662711-0015400
+L5SK3INT
+37.99
+1
+39.89
+['All Toys 4 Trucks', '75 9 Ave SE', 'High River,  Alberta  T1V 1E6']
+ALL TOYS 4 TRUCKS
+High River
+Alberta  T1V 1E6
+
+Cathy Welch
+702-6669655-7557816
+LC11SGPINT
+79.99
+1
+89.59
+['402-9843 Second Street', 'Sidney,  British Columbia  V8L 3C7']
+402-9843 SECOND STREET
+Sidney
+British Columbia  V8L 3C7
+
+Elena Nikonova
+702-7686579-2860264
+BW8LPINT
+44.98
+1
+50.83
+['208-75 Emmett Avenue', 'Toronto,  Ontario  M6M 5A7']
+208-75 EMMETT AVENUE
+Toronto
+Ontario  M6M 5A7
+
+Sana Khan
+701-1431511-6037856
+EWIP
+17.98
+1
+18.88
+['477 Saddlelake Dr NE', 'Calgary,  Alberta  T3J 0R7']
+477 SADDLELAKE DR NE
+Calgary
+Alberta  T3J 0R7
+
+Willem Van Schaik
+702-6474977-0669065
+L8DSK3
+54.98
+1
+63.23
+['PO Box 784', 'Lunenburg,  Nova Scotia  B0J 2C0']
+PO BOX 784
+Lunenburg
+Nova Scotia  B0J 2C0
+
+Robyn Pelletier
+701-0060320-9218636
+EGC4
+29.94
+1
+33.23
+['110 Main Street', 'Rosetown,  Saskatchewan  S0L 2V0']
+110 MAIN STREET
+Rosetown
+Saskatchewan  S0L 2V0
+
