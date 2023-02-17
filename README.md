@@ -25,9 +25,9 @@ This project is for my data entry job. The job involves an extensive amount of m
 
 ### General Procedures
 
-The following are the general procedures to process Amazon orders on a daily basis:
+This section shows what the job is about in general. The following are the general procedures to process Amazon orders on a daily basis:
 
-### Steps to Manage Daily Amazon Orders Maually
+#### Steps to Manage Daily Amazon Orders Maually
 
 1. Log in to [Amazon Seller Central](https://sellercentral.amazon.ca)
 2. Select all orders of the day
