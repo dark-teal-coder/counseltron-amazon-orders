@@ -46,7 +46,7 @@ def get_pdf_page_values(pdf, page_num):
 	v_sku = v_sku.upper()
 	v_sku = v_sku.rstrip("-") ## Remove "-" in SKU
 	if "ITEM TOTAL" in v_sku: ## Sometimes "Item total" included in SKU
-		i_sku = v_sku.find("ITEM TOTAL") 
+		i_sku = v_sku.find("ITEM TOTAL")
 		v_sku = v_sku[:i_sku]
 	v_sku = v_sku.strip()
 	order.update({"SKU": v_sku})
@@ -90,7 +90,7 @@ now = datetime.now()
 today_date = now.strftime(r"%Y-%m-%d")
 print("Today's date:", today_date)
 
-## Create folders if not existed 
+## Create folders if not existed
 if not os.path.exists('input'): os.makedirs('input')
 if not os.path.exists('output'): os.makedirs('output')
 
@@ -113,8 +113,8 @@ orders = {}
 with pdfplumber.open(input_filename) as pdf:
 	print(pdf)
 	num_of_pages = len(pdf.pages)
-	## Just add keys to an empty "orders" dictionary 
-	# for i in range(num_of_pages): 
+	## Just add keys to an empty "orders" dictionary
+	# for i in range(num_of_pages):
 	# 	orders[f"order{i+1}"] = None
 	## Write header in the output file
 	f = open(output_filename, "w", encoding="utf-8")
@@ -156,3 +156,16 @@ print(orders)
 # file_r = open(output_filename, "r")
 # print(file_r.read())
 # file_r.close()
+
+from PyPDF2 import PdfFileWriter, PdfFileReader
+
+output_pdf = PdfFileWriter()
+
+with open('input.pdf', 'rb') as readfile:
+	input_pdf = PdfFileReader(readfile)
+
+	for page in reversed(input_pdf.pages):
+		output_pdf.addPage(page)
+
+	with open('output.pdf', "wb") as writefile:
+		output_pdf.write(writefile)
