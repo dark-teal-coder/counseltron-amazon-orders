@@ -1,0 +1,61 @@
+--------------------------------------------------
+Watch out for Expedited orders!
+--------------------------------------------------
+Number of pages in PDF: 6
+--------------------------------------------------
+
+0803275 Bc Ltd.
+701-2710350-3103419
+C1253-2
+39.98
+1
+44.78
+['2732 Nadina Dr.', 'Coquitlam,  British Columbia  V3C 6A6']
+2732 NADINA DR.
+Coquitlam
+British Columbia  V3C 6A6
+
+Laura Burgin
+701-6547770-8297838
+EGC4
+29.94
+1
+33.53
+['5745 Tuktakamin Rd', 'PO Box 507 Falkland PO', 'Falkland,  British Columbia  V0E 1W0']
+5745 TUKTAKAMIN RD
+Falkland
+British Columbia  V0E 1W0
+
+Hariharan
+702-5112641-5648255
+L6MW
+39.99
+1
+45.19
+['Apt #1715-1050 Markham Road', 'Buzz code 373', 'Scarborough,  Ontario  M1H 2Y7']
+APT #1715-1050 MARKHAM ROAD
+Scarborough
+Ontario  M1H 2Y7
+
+Victor Tome
+702-2882627-9987403
+EGC4
+29.94
+1
+34.42
+['69 levasseur', 'st.constant,  Quebec  J5A1M5']
+69 LEVASSEUR
+St.Constant
+Quebec  J5A1M5
+
+Sanjith Maliyil Sabu
+702-4504873-9679416
+L9OG3INT
+49.98
+1
+56.48
+['505-605 Davenport Road', 'Waterloo,  Ontario  N2L 6H8']
+505-605 DAVENPORT ROAD
+Waterloo
+Ontario  N2L 6H8
+
