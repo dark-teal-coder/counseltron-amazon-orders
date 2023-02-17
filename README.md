@@ -21,9 +21,11 @@
 
 ## Repository Description
 
-This project is for my data entry job. The job involves an extensive amount of manual repetitive daily tasks. To manage Amazon orders, we need to type in data from papers into or copy and paste data into different apps. Therefore, this project is to automate some of these manual tasks in order to save some time. 
+This project is for my data entry job. The job involves an extensive amount of manual repetitive daily tasks. To manage Amazon orders, we need to type in data from papers into or copy and paste data into different applications. As such, this project is to automate some of these manual tasks in order to save some time. 
 
-### Manual Daily Task to Manage Amazon Orders
+The following are the general procedures to process Amazon orders on a daily basis:
+
+### Steps to Manage Daily Amazon Orders Maually
 
 1. Log in to [Amazon Seller Central](https://sellercentral.amazon.ca)
 2. Select all orders of the day
