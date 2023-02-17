@@ -4,6 +4,72 @@ Watch out for Expedited orders!
 Number of pages in PDF: 19
 --------------------------------------------------
 
+Karen Daniel
+702-8457296-4101041
+EWIP
+17.98
+1
+20.32
+['10 Sargeant Avenue', 'Ajax,  Ontario  L1Z 0G8']
+10 SARGEANT AVENUE
+Ajax
+Ontario  L1Z 0G8
+
+Anisa Assadzada
+701-5008926-1387403
+10621
+18.98
+1
+21.45
+['619 Silver Spruce Way', 'Ottawa,  Ontario  K2M 0L2']
+619 SILVER SPRUCE WAY
+Ottawa
+Ontario  K2M 0L2
+
+Inderpreet Athwal
+701-0226651-5233003
+EWIP
+17.98
+1
+20.14
+['8104 111B Street', 'Delta,  British Columbia  V4C 4S6']
+8104 111B STREET
+Delta
+British Columbia  V4C 4S6
+
+Isabelle Quinn
+702-6302519-7224263
+A-SPRAY
+19.98
+1
+20.98
+['1584 ﬂeury est', 'Montreal,  Québec  H2C 1S6']
+1584 FLEURY EST
+Montreal
+Québec  H2C 1S6
+
+Stephanie Russell Cogswell
+701-5353704-6731446
+EWIP
+17.98
+1
+20.68
+['6 Elm street', 'Dartmouth,  Nova Scotia  B2W 2K3']
+6 ELM STREET
+Dartmouth
+Nova Scotia  B2W 2K3
+
+Sana Khan
+701-1431511-6037856
+EWIP
+17.98
+1
+18.88
+['477 Saddlelake Dr NE', 'Calgary,  Alberta  T3J 0R7']
+477 SADDLELAKE DR NE
+Calgary
+Alberta  T3J 0R7
+
 Meaghan Alford
 701-0528518-1294611
 EGC4
@@ -48,17 +114,6 @@ C52524
 Amherst
 Nova Scotia  B4H 4R8
 
-Karen Daniel
-702-8457296-4101041
-EWIP
-17.98
-1
-20.32
-['10 Sargeant Avenue', 'Ajax,  Ontario  L1Z 0G8']
-10 SARGEANT AVENUE
-Ajax
-Ontario  L1Z 0G8
-
 Barry Holt
 702-3953415-9692218
 BW8LPINT
@@ -81,17 +136,6 @@ LC10SKINT
 Ajax
 Ontario  L1T 1W8
 
-Anisa Assadzada
-701-5008926-1387403
-10621
-18.98
-1
-21.45
-['619 Silver Spruce Way', 'Ottawa,  Ontario  K2M 0L2']
-619 SILVER SPRUCE WAY
-Ottawa
-Ontario  K2M 0L2
-
 Zalina Layton
 702-5612956-7004213
 BW15PPINT
@@ -102,39 +146,6 @@ BW15PPINT
 5042 WHITEWATER PLACE
 Chilliwack
 British Columbia  V4Z 1H5
-
-Inderpreet Athwal
-701-0226651-5233003
-EWIP
-17.98
-1
-20.14
-['8104 111B Street', 'Delta,  British Columbia  V4C 4S6']
-8104 111B STREET
-Delta
-British Columbia  V4C 4S6
-
-Isabelle Quinn
-702-6302519-7224263
-A-SPRAY
-19.98
-1
-20.98
-['1584 ﬂeury est', 'Montreal,  Québec  H2C 1S6']
-1584 FLEURY EST
-Montreal
-Québec  H2C 1S6
-
-Stephanie Russell Cogswell
-701-5353704-6731446
-EWIP
-17.98
-1
-20.68
-['6 Elm street', 'Dartmouth,  Nova Scotia  B2W 2K3']
-6 ELM STREET
-Dartmouth
-Nova Scotia  B2W 2K3
 
 Sylvie Dubois
 702-1761255-0705831
@@ -180,17 +191,6 @@ BW8LPINT
 Toronto
 Ontario  M6M 5A7
 
-Sana Khan
-701-1431511-6037856
-EWIP
-17.98
-1
-18.88
-['477 Saddlelake Dr NE', 'Calgary,  Alberta  T3J 0R7']
-477 SADDLELAKE DR NE
-Calgary
-Alberta  T3J 0R7
-
 Willem Van Schaik
 702-6474977-0669065
 L8DSK3
@@ -211,5 +211,5 @@ EGC4
 ['110 Main Street', 'Rosetown,  Saskatchewan  S0L 2V0']
 110 MAIN STREET
 Rosetown
-Saskatchewan  S0L 2V0
+Saskatchewan  	
 
