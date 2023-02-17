@@ -118,9 +118,11 @@ with pdfplumber.open(input_filename) as pdf:
 	f.write(f"Number of pages in PDF: {num_of_pages}\n")
 	f.write("-" * 50 + "\n\n")
 	f.close()
+	orders = {}
 	for i in range(num_of_pages):
 		order = get_pdf_page_values(pdf, i)
-		# print(order)
+		print("order", order)
+		orders.update({f"order{i + 1}": order})
 		## Append in binary mode
 		# f = open(output_filename, "ab")
 		## Specify encoding as UTF-8
@@ -134,6 +136,8 @@ with pdfplumber.open(input_filename) as pdf:
 			f.write("\n")
 		f.write("\n")
 		f.close()
+	print("orders", orders)
 
+## Read the output file
 f = open(output_filename, "r")
 print(f.read())
