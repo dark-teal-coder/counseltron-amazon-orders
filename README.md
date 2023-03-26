@@ -21,7 +21,7 @@
 
 ## Repository Description
 
-This project is for a data entry job which involves an extensive amount of manual repetitive daily tasks. To manage Amazon orders, we need to type in data from papers into or copy and paste data into different applications. As such, this project is to automate some of these manual tasks in order to save some time.
+In Canada, there are a number of small companies who sell products on Amazon Seller Central and hire data entry clerks to help them input and process order data. This project is for the data entry job which involves an extensive amount of manual repetitive daily tasks. To manage Amazon orders, we need to type in data from papers into or copy and paste data into different applications. As such, this project aims to automate some of these manual tasks in order to save some time.
 
 ### General Procedures
 
