@@ -1,6 +1,6 @@
 <!-- README file for projects-->
 
-# Counseltron Data Entry Automation
+# Amazon Order Data Entry Automation
 
 ## Metadata
 
@@ -9,7 +9,7 @@
 
 ## Project
 
-- **Title**: *Counseltron Data Entry Automation*
+- **Title**: *Amazon Order Data Entry Automation*
 - **Difficulty**:
   - [ ] Beginner
   - [x] Intermediate
@@ -21,7 +21,7 @@
 
 ## Repository Description
 
-This project is for my data entry job. The job involves an extensive amount of manual repetitive daily tasks. To manage Amazon orders, we need to type in data from papers into or copy and paste data into different applications. As such, this project is to automate some of these manual tasks in order to save some time.
+This project is for a data entry job which involves an extensive amount of manual repetitive daily tasks. To manage Amazon orders, we need to type in data from papers into or copy and paste data into different applications. As such, this project is to automate some of these manual tasks in order to save some time.
 
 ### General Procedures
 
