@@ -21,7 +21,7 @@
 
 ## Repository Description
 
-In Canada, there are a number of small companies who sell products on Amazon Seller Central and hire data entry clerks to help them input and process order data. This project is for the data entry job which involves an extensive amount of manual repetitive daily tasks. To manage Amazon orders, we need to type in data from papers into or copy and paste data into different applications. As such, this project aims to automate some of these manual tasks in order to save some time.
+In Canada, there are a number of small companies who sell products on Amazon Seller Central and hire data entry clerks to help them input and process order data. Many of these small companies cannot afford to use technological tools to process orders and require manual work. To manage Amazon orders, these companies require data entry clerks to type in data from paper orders into or copy and paste the data into different applications, such as Canada Post EST Desktop App, for further processing. However, we have free open-source tools like Python to help us automate some tasks and make our work more efficient and simpler. This project is for the data entry job which involves an extensive amount of manual repetitive data entry tasks on a daily basis. It aims to automate some of these manual tasks in order to save some time.
 
 ### General Procedures
 
