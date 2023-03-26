@@ -51,7 +51,7 @@ This section shows what the job is about in general. The following are the gener
 20. Print the "AMA00M" spreadsheet result
 21. Open "EST Desktop" application (see [Canada Post EST Desktop App.JPG](./images/Canada%20Post%20EST%20Desktop%20App.JPG))
 22. Enter login credential
-    - Username: Counseltron_LTD
+    - Username: Company_Name
     - Password: **********
 23. Click [New] or Press [Ctrl] + [N] to create a new shipping label
 24. Enter "Reference #", "Name", "Address Line 1", "Address Line 2" (if any), "City", "Province", "Postal Code", "Contact Phone", "Weight", "Length", "Width", "Height" and "Cost Centre" as "Amazon Marketplace" to create a shipping label
