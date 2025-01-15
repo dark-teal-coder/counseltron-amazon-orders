@@ -17,7 +17,7 @@
 - **Scale**:
   - [x] Small
   - [ ] Medium
-  - [ ] Big
+  - [ ] Large
 
 ## Repository Description
 
